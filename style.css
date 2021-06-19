@@ -1,14 +1,18 @@
+/* changed */
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0px;
     padding: 0px;
     cursor: pointer;
+    font-family: 'Crimson Text', serif;
 }
+
 .website{
     color: rgb(10, 209, 235);
-     font-size: 40px; 
-}
-.dolor{
-     color: aquamarine; 
+     font-size: 70px; 
 }
 h1,h2 {
     text-align: center;
@@ -39,10 +43,16 @@ li {
     justify-content: space-around;
     background-color: lightblue;
 }
+.df:hover{
+    background: linear-gradient(rgb(233, 103, 131),rgb(223, 223, 167));
+}
 .ce{
     display: flex;
     justify-content: space-around;
-    background-color: rgba(202, 235, 19, 0.329);
+    background-color: rgba(213, 238, 70, 0.329);
+}
+.ce:hover{
+    background: linear-gradient(rgb(196, 137, 211),rgb(45, 194, 125));
 }
 img{
     border-radius: 40px;
@@ -56,15 +66,33 @@ img{
 .tion {
     display: flex;
     justify-content: space-around;
+    width: 100%;      
+    height: auto;
 }
-.age{
+.age:hover{
     text-align: center;
-    background-attachment: fixed;
+    font-size: 40px;
+    mix-blend-mode: difference;
+    
 }
 .abcd>img>p{
     background-color: rgba(37, 228, 20, 0.918);
     display: flex; 
-    width: 1350px;
+    width: 100%;
     flex-direction: column;
+    flex-wrap: wrap-reverse;
 }
+ 
+@media  (max-width: 911px) {
+    .df{
+        display: block;
+   }       
+}
+
+@media  (max-width: 911px) {
+    #photo{
+        display: block;
+   }       
+}
+
 
