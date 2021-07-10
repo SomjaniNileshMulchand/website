@@ -9,10 +9,9 @@ body {
     cursor: pointer;
     font-family: 'Crimson Text', serif;
 }
-
 .website{
     color: rgb(10, 209, 235);
-     font-size: 70px; 
+    font-size: 70px; 
 }
 h1,h2 {
     text-align: center;
@@ -33,10 +32,10 @@ ul>li>a:hover{
 li {
     list-style-type: none;
 }
- #photo{
+#photo{
     background-color: white;
-    width: 1350px;
-    height: 450px;
+    width: 100%;
+    height: auto;
 } 
 .df{
     display: flex;
@@ -56,6 +55,8 @@ li {
 }
 img{
     border-radius: 40px;
+    /* width: 80%;
+    height: 40vh; */
 }
 .sit {
     color: rgb(138, 121, 124);
@@ -73,7 +74,6 @@ img{
     text-align: center;
     font-size: 40px;
     mix-blend-mode: difference;
-    
 }
 .abcd>img>p{
     background-color: rgba(37, 228, 20, 0.918);
@@ -82,14 +82,47 @@ img{
     flex-direction: column;
     flex-wrap: wrap-reverse;
 }
- 
-@media  (max-width: 911px) {
+.chri{
+    width: 25rem;
+    height: 40vh;
+}
+.ben{
+    width: 400px;
+    height: 300px;
+
+}
+.math{
+    width: 400px;
+    height: 300px;
+
+}
+.jona{
+    width: 400px;
+    height: 300px;
+
+}
+.raen{
+    width: 400px;
+    height: 300px;
+
+}
+.jann{
+    width: 400px;
+    height: 300px;
+
+}
+.arti{
+    width: 400px;
+    height: 300px;
+
+}
+@media  (max-width: 1200px) {
     .df{
         display: block;
    }       
 }
 
-@media  (max-width: 911px) {
+@media  (max-width: 1200px) {
     #photo{
         display: block;
    }       

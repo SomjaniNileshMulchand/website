@@ -3,12 +3,13 @@
     margin: 0;
     padding: 0;
 }
-.nece.image{
+/* .nece.image{
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     margin: 10px;
-}@media  (max-width: 911px) {
+} */
+@media  (max-width: 1200px) {
     .ce{
         display: block;
    }       
